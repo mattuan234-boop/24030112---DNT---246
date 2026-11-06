@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giới thiệu cá nhân</title>
+  <style>
+    :root {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #183b5b;
+      background: #eaf6ff;
+    }
+
+    * { box-sizing: border-box; }
+
+    .top-link {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1;
+      padding: 10px 15px;
+      color: #fff;
+      background: #347bb0;
+      border-radius: 999px;
+      box-shadow: 0 6px 16px rgb(52 123 176 / 25%);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      padding: 32px 18px;
+      display: grid;
+      place-items: center;
+    }
+
+    main {
+      width: min(100%, 680px);
+      padding: 38px;
+      background: #f9fcff;
+      border: 1px solid #cce8fa;
+      border-radius: 18px;
+      box-shadow: 0 14px 40px rgb(73 137 181 / 16%);
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: #347bb0;
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    h1 { margin: 0 0 26px; font-size: clamp(1.8rem, 5vw, 2.4rem); }
+    dl { margin: 0; }
+    .item { padding: 18px 0; border-top: 1px solid #d9edf9; }
+    dt { margin-bottom: 6px; font-weight: 650; }
+    dd { margin: 0; color: #416a88; }
+
+    @media (max-width: 480px) {
+      main { padding: 26px 22px; }
+    }
+  </style>
+</head>
+<body>
+  <a class="top-link" href="event.html">Sự kiện</a>
+  <main>
+    <p class="eyebrow">Giới thiệu</p>
+    <h1>Giới thiệu cá nhân</h1>
+    <dl>
+      <div class="item">
+        <dt>Họ và tên</dt>
+        <dd>Đào Ngọc Tuân</dd>
+      </div>
+      <div class="item">
+        <dt>Chuyên ngành</dt>
+        <dd>Sản Xuất Sản Phẩm Truyền Thông</dd>
+      </div>
+      <div class="item">
+        <dt>Kỹ năng</dt>
+        <dd>Exel, Word, Canva,...</dd>
+      </div>
+      <div class="item">
+        <dt>Mục tiêu nghề nghiệp</dt>
+        <dd>Làm Chủ Tịch</dd>
+      </div>
+    </dl>
+  </main>
+</body>
+</html>
